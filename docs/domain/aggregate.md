@@ -87,7 +87,7 @@ When building an application, you'd not need to use the `Aggregate` abstract cla
 
 ### Aggregate with state
 
-Inherited from `Aggregate`, the `Aggregate<T>` adds a separate concept of the aggregate state. Traditionally, we consider state as part of the aggregate. However, state is the only part of the aggregate that mutated. The primary pattern in Eventuous is to separate state from the behaviour by splitting them into two distinct objects.
+Inherited from `Aggregate`, the `Aggregate<T>` adds a separate concept of the aggregate state. Traditionally, we consider state as part of the aggregate. However, state is the only part of the aggregate that mutates. The primary pattern in Eventuous is to separate state from the behaviour by splitting them into two distinct objects.
 
 :::tip Event-sourced state
 The `State` abstraction is described on the [State](state) page.
