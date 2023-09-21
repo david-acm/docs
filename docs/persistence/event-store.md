@@ -26,7 +26,7 @@ All of those are immutable records.
 
 ### Operations
 
-Right now, we only have four operations for an event store:
+Right now, we only have two operations for an event store:
 
 | Function              | What's it for                                                                                                 |
 |-----------------------|---------------------------------------------------------------------------------------------------------------|
