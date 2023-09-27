@@ -176,7 +176,7 @@ app.MapDiscoveredCommands<Booking>();
 record ProcessPayment(string BookingId, float PaidAmount);
 ```
 
-For it to work, all the commands must be annotated and have the route defined in the annotation.
+For this to work, all the commands must be annotated and have the route defined in the annotation.
 
 The second extension will discover all the annotated commands, which need to have an association with the aggregate type by using the `Aggregate` argument of the attribute, or by using the `AggregateCommands` attribute on the container class (described above):
 
